@@ -1,0 +1,59 @@
+.container {
+  margin: 1rem;
+}
+
+.card__title {
+  color: #06d6a0;
+  margin-bottom: 1rem;
+  font-size: 2.44rem;
+  text-align: center;
+}
+
+.card__subtitle {
+  color: #118ab2;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.card {
+  margin: 1rem;
+  text-align: center;
+}
+
+.card__column {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.cardcovid__card {
+  box-shadow: 5px 5px 5px #06d6a0;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .card__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .card__container {
+    max-width: 1200px;
+    margin: 5rem;
+  }
+}

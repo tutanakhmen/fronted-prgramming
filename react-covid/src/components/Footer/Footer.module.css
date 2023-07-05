@@ -1,0 +1,46 @@
+/* Small Screen */
+.container {
+  background-color: #06d6a0;
+  padding: 1rem;
+  color: #fff;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+}
+
+.footer__author {
+  margin-bottom: 1rem;
+}
+.footer__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__item {
+  margin-bottom: 1rem;
+}
+
+/* Medium Screnn */
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__brand {
+    margin-bottom: 1;
+  }
+
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer__item {
+    margin: 0 1rem;
+  }
+}
