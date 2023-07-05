@@ -1,0 +1,78 @@
+/* Small Screen */
+.container {
+  margin: 1rem 0;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.table {
+  margin: 1rem;
+  text-align: center;
+}
+
+.table__title {
+  color: #06d6a0;
+  font-size: 2.44rem;
+  margin-bottom: 1rem;
+}
+
+.table__subtitle {
+  color: #118ab2;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.table__coloumn {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table__head {
+  border: 1px solid;
+  border-color: black;
+  background-color: #06d6a0;
+  color: #ffffff;
+  height: 3rem;
+  width: 3rem;
+}
+
+.table__data {
+  border: 1px solid;
+  border-color: black;
+  color: black;
+  height: 3rem;
+  width: 3rem;
+}
+
+.provinsi__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: -3rem auto;
+  }
+  .table__coloumn {
+    width: 100%;
+  }
+}
